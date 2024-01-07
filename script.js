@@ -62,17 +62,17 @@ function showval(data) {
   const weather = data.weather[0].main
 
   if (weather == "Clouds") {
-    weatherImage.src = "/Weather App/Assets(Images)/cloud.png"
+    weatherImage.src = "/WeatherWebsite/Assets(Images)/cloud.png"
   } else if (weather == "Clear") {
-    weatherImage.src = "/Weather App/Assets(Images)/clear.png"
+    weatherImage.src = "/WeatherWebsite/Assets(Images)/clear.png"
   } else if (weather == "Rain") {
-    weatherImage.src = "/Weather App/Assets(Images)/rain.png"
+    weatherImage.src = "/WeatherWebsite/Assets(Images)/rain.png"
   } else if (weather == "Mist") {
-    weatherImage.src = "/Weather App/Assets(Images)/mist.png"
+    weatherImage.src = "/WeatherWebsite/Assets(Images)/Mist.png"
   } else if (weather == "Snow") {
-    weatherImage.src = "/Weather App/Assets(Images)/snow.png"
+    weatherImage.src = "/WeatherWebsite/Assets(Images)/Snow.png"
   } else {
-    weatherImage.src = "/Weather App/Assets(Images)/clear.png"
+    weatherImage.src = "/WeatherWebsite/Assets(Images)/Snow.png"
   }
 }
 
