@@ -19,7 +19,6 @@ body {
 /* SeachBar */
 
 .header {
-  /* border: 2px solid red; */
   width: 100vw;
   height: 100vh;
   display: flex;
@@ -28,7 +27,6 @@ body {
 }
 
 .section {
-  /* border: 2px solid red; */
   width: 25%;
   height: 5rem;
   background-color: white;
@@ -43,7 +41,6 @@ body {
 }
 
 .section .searchBar {
-  /* border: 2px solid red; */
   width: 80%;
   display: flex;
   justify-content: center;
@@ -53,7 +50,6 @@ body {
 }
 
 .section .searchBar .inputField {
-  /* border: 2px solid red; */
   font-family: "Roboto";
   color: black;
   font-size: 1rem;
@@ -87,7 +83,6 @@ body {
   display: none;
   flex-direction: column;
   row-gap: 3rem;
-  /* border: 2px solid red; */
 }
 .section .error .errorMsg{
   font-size: 2rem;
@@ -97,13 +92,11 @@ body {
 }
 
 .dataBody {
-  /* border: 2px solid red; */
   display: none;
   flex-direction: column;
 }
 
 .imgContainer {
-  /* border: 2px solid red; */
   width: 100%;
   height: 10rem;
   display: flex;
@@ -111,14 +104,12 @@ body {
 }
 
 .section .dataBody .weatherImg {
-  /* border: 2px solid red; */
   width: 10rem;
   height: 10rem;
   object-fit: cover;
 }
 
 .section .dataBody .temprature {
-  /* border: 2px solid red; */
   margin-top: 2rem;
   font-family: "Roboto";
   font-size: 5rem;
@@ -131,7 +122,6 @@ body {
 }
 
 .section .dataBody .city {
-  /* border: 2px solid red; */
   margin-top: 1rem;
   font-family: "Roboto";
   font-size: 3rem;
@@ -143,7 +133,6 @@ body {
 }
 
 .section .dataBody .otherData {
-  /* border: 2px solid red; */
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -152,19 +141,16 @@ body {
 }
 
 .section .dataBody .otherData .humidity {
-  /* border: 2px solid red; */
   display: flex;
   column-gap: 0.5rem;
 }
 .section .dataBody .otherData .windSpeed {
-  /* border: 2px solid red; */
   display: flex;
   column-gap: 0.5rem;
 }
 
 
 .value {
-  /* border: 2px solid red; */
   display: flex;
   flex-direction: column;
   justify-content: center;
