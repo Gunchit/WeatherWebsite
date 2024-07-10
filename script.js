@@ -1,6 +1,6 @@
 // // URL
 const api_url = `https://api.openweathermap.org/data/2.5/weather?units=metric&q=`
-const api_key = `3b269045cc57bd7814bf49a8023a3a50`
+const api_key = ``
 
 // // Selecting Componenets
 
